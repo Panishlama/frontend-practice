@@ -1,0 +1,40 @@
+body{
+    background-color: #047d71;
+}
+
+.profile-card{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    border: 2px solid #ab0e0e;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.profile-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-card h1{
+    font-size: 20px;
+    color: #03034a;
+}
+
+.profile-card p{
+    font-size: 16px;
+    color: rgb(120, 120, 242);
+    line-height: 1.5;
+}
+
+.profile-card button{
+    background-color: purple;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
