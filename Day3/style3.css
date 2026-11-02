@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:150px;
+    background-color: #047d71;
+}
+
+.container{
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    border: 2px solid #ab0e0e;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(106, 106, 239);
+    border: 1px solid #ab0e0e;
+    cursor: pointer;
+}
