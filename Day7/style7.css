@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:40px;
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:#f1f1f1;
+    font-family:'arial',sans-serif;
+}
+
+.profile-card{
+    margin: 0 auto;
+    padding:20px;
+    width: 300px;
+    min-height: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-image img{
+    width:120px;
+    height: 120px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+
+a img{
+    width:40px;
+    height:40px;
+}
+
+.contact-info{
+    margin: 15px;
+    gap: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(13, 13, 61);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
